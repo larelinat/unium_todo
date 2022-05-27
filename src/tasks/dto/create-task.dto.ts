@@ -6,4 +6,7 @@ export class CreateTaskDto {
 
     @IsBoolean()
     readonly done: boolean;
+
+    readonly color: string;
+    readonly description: string;
 }

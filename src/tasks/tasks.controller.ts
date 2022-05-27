@@ -2,7 +2,7 @@ import {Body, Controller, Delete, Get, Param, Patch, Post, UsePipes, ValidationP
 import {TasksService} from './tasks.service';
 import {CreateTaskDto} from './dto/create-task.dto';
 import {UpdateTaskDto} from './dto/update-task.dto';
-import {Task} from 'src/schemas/task.schema';
+import {Task} from 'src/tasks/entities/task.schema';
 
 
 @Controller('tasks')

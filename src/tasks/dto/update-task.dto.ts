@@ -8,4 +8,7 @@ export class UpdateTaskDto extends PartialType(CreateTaskDto) {
 
     @IsBoolean()
     readonly done: boolean;
+
+    readonly color: string;
+    readonly description: string;
 }

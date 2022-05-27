@@ -9,7 +9,9 @@ import {WellKnownController} from './well-known/well-known.controller';
 
 @Module({
   imports: [MongooseModule.forRoot('mongodb://localhost/unium-tasks', {useNewUrlParser: true}),
-    TasksModule],
+    TasksModule,
+
+  ],
   controllers: [AppController, WellKnownController],
   providers: [AppService],
 })

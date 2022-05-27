@@ -11,6 +11,14 @@ export class Task {
 
     @Prop({required: true})
     done: boolean;
+
+    @Prop()
+    description: string;
+
+    @Prop()
+    color: string;
+
+
 }
 
 
